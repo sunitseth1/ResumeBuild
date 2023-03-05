@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <>
-            <Box id='navbar' bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+            <Box id='navbar' bg={useColorModeValue('blue.100', 'gray.900')} px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Box><img style={{ height: '44px' }} className='logo' src={logo} alt="logo" /></Box>
 

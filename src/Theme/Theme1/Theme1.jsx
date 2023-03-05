@@ -20,9 +20,7 @@ const Theme1 = (props) => {
                 <Box _dark={{ border: '1px solid white' }} id="theme1">
                     {/* Personal Info  */}
                     <header id='info' className='text-center mt-2'>
-                        <Heading as='h2' size='2xl' className='mb-2'>
-                            {name}
-                        </Heading>
+                        <Heading as='h2' size='2xl' className='mb-2'>{name}</Heading>
                         <Text fontSize='md' className='text-muted my-1 '>
                             <span className='mx-2'><ImLocation className='d-inline mx-1' />{address}</span>|
                             <span className='mx-2'><GrMail className='d-inline mx-1' />{email}</span>|

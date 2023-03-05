@@ -37,7 +37,7 @@ export default function Introduction() {
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
                                 Your resume in three{' '}
-                                <Text as={'span'} color={'#38B2AC'}>
+                                <Text as={'span'} color={'blue.500'}>
                                     easy {' '}
                                 </Text>
                                 steps
@@ -76,7 +76,7 @@ export default function Introduction() {
                             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                             lineHeight={'110%'}>
                             Select a {' '}
-                            <Text as={'span'} color={'#38B2AC'}>
+                            <Text as={'span'} color={'blue.500'}>
                                 Template {' '}
                             </Text>
                             from the list
